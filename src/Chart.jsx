@@ -30,6 +30,7 @@ export default function Chart() {
     mesh.current.material.uniforms.u_time.value = clock.getElapsedTime();
   });
 
+
   return (
     <mesh ref={mesh} position={[0, 0, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={1.5}>
       <planeGeometry args={[1, 1, 16, 16]} />

@@ -8,8 +8,6 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 
 root.render(
   <>
-    
-
     <Canvas
       camera={{
         fov: 45,
@@ -18,7 +16,7 @@ root.render(
         position: [-4, 3, 6],
       }}
     >
-        <OrbitControls makeDefault />
+      <OrbitControls makeDefault />
       {/* <Experience /> */}
       <Chart />
     </Canvas>
